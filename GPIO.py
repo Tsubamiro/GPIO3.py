@@ -2,8 +2,8 @@ import RPi.GPIO as GPIO
 from time import sleep
 
 GPIO.setmode(GPIO.BCM)
-GIPO.setup(15,GIPO.OUT)
-GIPO.setup(2,GPIO.IN)
+GPIO.setup(15,GPIO.OUT)
+GPIO.setup(2,GPIO.IN)
 
 try:
     while True:
